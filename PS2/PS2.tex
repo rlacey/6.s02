@@ -1,0 +1,184 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% University/School Laboratory Report
+% LaTeX Template
+% Version 3.0 (4/2/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Linux and Unix Users Group at Virginia Tech Wiki 
+% (https://vtluug.org/wiki/Example_LaTeX_chem_lab_report)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+
+\usepackage[version=3]{mhchem} % Package for chemical equation typesetting
+\usepackage{siunitx} % Provides the \SI{}{} command for typesetting SI units
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{cancel}
+
+\usepackage{float}
+
+\usepackage[T1]{fontenc} % allow small bold caps
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+\renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
+
+\usepackage[margin=1in]{geometry}
+
+\usepackage{amssymb}
+
+%\usepackage{times} % Uncomment to use the Times New Roman font
+
+%----------------------------------------------------------------------------------------
+%	Title
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\pagenumbering{gobble}
+
+\title{6.s02: EECS II - From A Medical Perspective}
+\author{
+  Ryan Lacey <rlacey@mit.edu>\\
+  \footnotesize \texttt{Collaborator(s): Jorge Perez}
+}
+        
+\maketitle
+        
+
+
+\begin{enumerate}
+
+\item[1.]
+	\begin{itemize}
+	\item
+		Area of probability distribution sums up to one, so area of triangle is one.\\
+		
+		$1 = \frac{1}{2} \left(b \cdot h \right)= \frac{1}{2} \left( 4 \cdot a \right)$\\
+		
+		$a = \frac{1}{2}$\\
+
+	\item Mean of distribution\\
+
+		$\mu_x = \displaystyle\int_{-\infty}^{\infty} xf_x(x)dx$\\
+		
+		$\mu_x = \displaystyle\int_{0}^{2} x \left(\frac{x}{4}\right)dx + \displaystyle\int_{2}^{4} x \left(1- \frac{x}{4}\right)dx$\\
+
+		$\mu_x = \frac{2}{3} + \frac{4}{3} = 2$\\
+
+	\item Variance of distribution\\
+
+		$\sigma^2_x = \displaystyle\int_{-\infty}^{\infty} \left(x - \mu_x\right)^2f_x(x)dx$\\
+		
+		$\sigma^2_x = \displaystyle\int_{0}^{2} \left(x - 2\right)^2 \left(\frac{x}{4}\right)dx + \displaystyle\int_{2}^{4} \left(x - 2\right)^2 \left(1- \frac{x}{4}\right)dx$\\
+		
+		$\sigma^2_x = \frac{1}{3} + \frac{1}{3} = \frac{2}{3}$\\
+	\end{itemize}
+
+\newpage
+
+\item[2.]
+	\begin{enumerate}
+	\item[(a)]4
+	\item[(b)]3
+	\item[(c)]5
+	\item[(d)]2
+	\item[(e)]6
+	\item[(f)]1
+	\item[(g)]7
+	\item[(h)]The patient moves toward the $E$ region. For the top $C$ the patient is measured at a higher level than they have and will move to an even lower level. For the bottom $C$ region the patient is measured at a lower level than they have and will move to an even higher level.
+	\end{enumerate}
+
+\newpage
+
+\item[3.]
+	\begin{enumerate}
+	\item[(a)]
+			$\sin\left(\frac{6\pi}{7}\left(n + N\right)\right) = \sin\left(\frac{6\pi}{7}n + \frac{6\pi}{7}N\right)$\\
+			
+			$\sin\left(\frac{6\pi}{7}n + \frac{6\pi}{7}N\right) = \sin\left(\frac{6\pi}{7}n + 2\pi k\right)$\\
+			
+			$\therefore \frac{6\pi}{7}N = 2\pi k$\\
+			
+			$N = 7$ (satisfied by $k=3$)\\
+
+	\item[(b)]
+			$\sin\left(\frac{6\pi}{7}\left(n + N\right) + 1\right) = \sin\left(\left(\frac{6\pi}{7}n + \frac{6\pi}{7}N\right) + 1\right)$\\
+			
+			The one is just a shift and does not affect the period, so we can ignore it. Then the equation becomes the same as the above.\\
+			
+			$\sin\left(\frac{6\pi}{7}n + \frac{6\pi}{7}N\right) = \sin\left(\frac{6\pi}{7}n + 2\pi k\right)$\\
+			
+			$\therefore \frac{6\pi}{7}N = 2\pi k$\\
+			
+			$N = 7$ (satisfied by $k=3$)\\
+
+	\item[(c)]
+			$\cos\left(\frac{6\left(n + N\right)}{7} - \pi\right) = \cos\left(\left(\frac{6n}{7} + \frac{6N}{7}\right) - \pi\right)$\\
+			
+			As before, we can ignore the shift term by dropping $\pi$ from our concerns.\\
+			
+			$\cos\left(\frac{6n}{7} + \frac{6N}{7}\right) = \cos\left(\frac{6n}{7} + 2\pi k\right)$\\
+			
+			$\therefore \frac{6N}{7} = 2\pi k$\\
+			
+			$N = \frac{7}{3}\pi k$\\
+			
+			No integer value of $k$ satisfies, so it is not a DT periodic signal.\\
+
+	\item[(d)]
+			$\cos\left(\frac{\pi}{2}\left(n + N\right)\right)\cos\left(\frac{\pi}{4}\left(n + N\right)\right) = \cos\left(\frac{\pi}{2}n + \frac{\pi}{2}N\right)\cos\left(\frac{\pi}{4}n + \frac{\pi}{4}N\right)$\\
+			
+			$\cos\left(\frac{\pi}{2}n + \frac{\pi}{2}N\right)\cos\left(\frac{\pi}{4}n + \frac{\pi}{4}N\right) = \cos\left(\frac{\pi}{2}n + 2\pi k_1\right)\cos\left(\frac{\pi}{4}n + 2\pi k_2\right)$\\
+			
+			$\therefore \frac{\pi}{2}N = 2\pi k_1$ and $\frac{\pi}{4}N = 2\pi k_2$\\
+			
+			$N = 8$ (satisfied by $k_1=2$ and $k_2=1$)\\
+	\end{enumerate}
+
+\newpage
+
+\item[4.]
+	\begin{enumerate}
+	\item[(a)]
+			$X\left[k\right] = \dfrac{1}{N} \displaystyle\sum_{n=0}^{N-1} x\left[n\right]e^{-j\frac{2\pi}{N}kn}$\\
+			
+			$X\left[k\right] = \dfrac{1}{6} \displaystyle\sum_{n=0}^{5} \left(1 + \cos\left(\frac{2\pi}{6}n\right)\right)e^{-j\frac{2\pi}{6}kn}$\\
+			
+			Solved with WolframAlpha\\
+			
+			$X\left[k\right] = \frac{1}{4}e^{\left( -5j \frac{\pi}{3}k\right)} + \frac{1}{12}e^{\left( -4j \frac{\pi}{3}k\right)} + \frac{1}{12}e^{\left( -2j \frac{\pi}{3}k\right)} + \frac{1}{4}e^{\left(\frac{\pi}{3}\left(-k\right)\right)} + \frac{1}{3}$\\
+			
+	\item[(b)]
+			$X\left[k\right] = \dfrac{1}{8} \displaystyle\sum_{n=0}^{3}e^{-j\frac{2\pi}{8}kn} - \dfrac{1}{8} \displaystyle\sum_{n=4}^{7}e^{-j\frac{2\pi}{8}kn}$\\
+	\end{enumerate}
+
+\newpage
+
+\item[5.]
+	$x\left[n\right] = \displaystyle\sum_{k=-\frac{N}{2}}^{\frac{N}{2}-1} X\left[k\right]e^{j\frac{2\pi}{N}kn}$
+	
+	$x\left[n\right] = \displaystyle\sum_{k=-4}^{3} X\left[k\right]e^{j\frac{2\pi}{7}kn}$\\
+	
+	$x\left[n\right] = -\frac{1}{2j}e^{j\frac{-4\pi}{7}n} + e^{j\frac{-2\pi}{7}n} + e^{j\frac{2\pi}{7}n} + \frac{1}{2j}e^{j\frac{4\pi}{7}n}$\\
+	
+	$x\left[n\right] = \frac{1}{2j}\left(-e^{j\frac{-4\pi}{7}n} + e^{j\frac{4\pi}{7}n}\right) + 1\left(e^{j\frac{-2\pi}{7}n} + e^{j\frac{2\pi}{7}n}\right)$\\
+	
+	$x\left[n\right] = \sin\left(\frac{4\pi}{7}n\right) + 2\cos\left(\frac{2\pi}{7}n\right)$
+
+\end{enumerate}
+
+\end{document}
