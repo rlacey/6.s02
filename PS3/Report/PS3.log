@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.9.23)  2 MAR 2014 19:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.9.23)  3 MAR 2014 23:50
 entering extended mode
 **PS3.tex
 (M:\School\6.02\PS3\Report\PS3.tex
@@ -809,36 +809,86 @@ File: ../images/Problem3Graph.png Graphic file (type png)
 Package pdftex.def Info: ../images/Problem3Graph.png used on input line 155.
 (pdftex.def)             Requested size: 469.75502pt x 243.75671pt.
  [2 <M:/School/6.02/PS3/images/Problem3Graph.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
-[3] <../images/Problem4Graph.png, id=25, 1445.4pt x 755.82375pt>
+<../images/FrequencyResponse.png, id=22, 1445.4pt x 755.82375pt>
+File: ../images/FrequencyResponse.png Graphic file (type png)
+
+<use ../images/FrequencyResponse.png>
+Package pdftex.def Info: ../images/FrequencyResponse.png used on input line 187
+.
+(pdftex.def)             Requested size: 433.62335pt x 226.74887pt.
+
+Overfull \hbox (10.86836pt too wide) in paragraph at lines 186--189
+[]
+ []
+
+<../images/AlphaRS.png, id=23, 1445.4pt x 725.71124pt>
+File: ../images/AlphaRS.png Graphic file (type png)
+
+<use ../images/AlphaRS.png>
+Package pdftex.def Info: ../images/AlphaRS.png used on input line 194.
+(pdftex.def)             Requested size: 433.62335pt x 217.71504pt.
+
+<../images/AlphaDelays.png, id=24, 1445.4pt x 725.71124pt>
+File: ../images/AlphaDelays.png Graphic file (type png)
+
+<use ../images/AlphaDelays.png>
+Package pdftex.def Info: ../images/AlphaDelays.png used on input line 196.
+(pdftex.def)             Requested size: 433.62335pt x 217.71504pt.
+
+<../images/AlphaCosts.png, id=25, 1445.4pt x 725.71124pt>
+File: ../images/AlphaCosts.png Graphic file (type png)
+
+<use ../images/AlphaCosts.png>
+Package pdftex.def Info: ../images/AlphaCosts.png used on input line 198.
+(pdftex.def)             Requested size: 433.62335pt x 217.71504pt.
+
+Overfull \hbox (10.86836pt too wide) in paragraph at lines 192--199
+[]
+ []
+
+
+Overfull \hbox (10.86836pt too wide) in paragraph at lines 192--199
+[]
+ []
+
+
+Overfull \hbox (10.86836pt too wide) in paragraph at lines 192--199
+[] 
+ []
+
+[3 <M:/School/6.02/PS3/images/FrequencyResponse.png (PNG copy)> <M:/School/6.02
+/PS3/images/AlphaRS.png (PNG copy)>] [4 <M:/School/6.02/PS3/images/AlphaDelays.
+png (PNG copy)> <M:/School/6.02/PS3/images/AlphaCosts.png (PNG copy)>] [5]
+<../images/Problem4Graph.png, id=36, 1445.4pt x 755.82375pt>
 File: ../images/Problem4Graph.png Graphic file (type png)
 
 <use ../images/Problem4Graph.png>
-Package pdftex.def Info: ../images/Problem4Graph.png used on input line 188.
+Package pdftex.def Info: ../images/Problem4Graph.png used on input line 265.
 (pdftex.def)             Requested size: 469.75502pt x 245.6398pt.
- [4 <M:/School/6.02/PS3/images/Problem4Graph.png (PNG copy)>] (M:\School\6.02\P
+ [6 <M:/School/6.02/PS3/images/Problem4Graph.png (PNG copy)>] (M:\School\6.02\P
 S3\Report\PS3.aux) ) 
 Here is how much of TeX's memory you used:
- 14378 strings out of 493921
- 284058 string characters out of 3147267
- 321141 words of memory out of 3000000
- 17483 multiletter control sequences out of 15000+200000
+ 14412 strings out of 493921
+ 284724 string characters out of 3147267
+ 347141 words of memory out of 3000000
+ 17513 multiletter control sequences out of 15000+200000
  17255 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 38i,9n,40p,299b,1611s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,9n,40p,495b,1653s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-su
 per-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/P
@@ -853,9 +903,9 @@ bols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm10
 :/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1728.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt0800.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on PS3.pdf (4 pages, 223189 bytes).
+Output written on PS3.pdf (6 pages, 295007 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
+ 84 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
