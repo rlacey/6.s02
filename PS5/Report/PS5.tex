@@ -180,7 +180,7 @@ ECGRatio = EfE / EtE;
 \bigskip
 
 	\item[(d)]
-	placeholder
+	The noise in the glucose signals appears to be greater than the noise in the ECG signal. This is because the target frequencies in the glucose signal are the low frequencies, so we are interested in the changes over a long period of time. The high frequency components are correctly attributed to noise in the signal. The ECG, on the other hand, features high frequency characteristics that are not noise, which means that this technique does not reveal a lot about the signal quality.
 
 	\end{enumerate}
 
@@ -209,6 +209,11 @@ xe0fft = fftshift(xe0fftUnshifted);
 H0 = notchFilter(N, 50, 70);
 xe0Filtered = ifft(ifftshift(H0 .* xe0fft))*N;
 \end{lstlisting}
+
+\newpage
+
+\item[3.] $\:$ \\
+	\includegraphics[scale=0.75]{../images/P3_AlienHeart} \\
 
 \end{enumerate}
 

@@ -26,12 +26,12 @@ f = linspace(-500, 500*(1-1/N), N);
 %  PART B
 %%
 
-% xg0s = abs(xg0fftUnshifted).^2;
-% xg0sfft = fftshift(xg0s);
+xg0s = abs(xg0fftUnshifted).^2;
+xg0sfft = fftshift(xg0s);
 % semilogy(f, xg0sfft);
 
-% xe0s = abs(xe0fftUnshifted).^2;
-% xe0sfft = fftshift(xe0s);
+xe0s = abs(xe0fftUnshifted).^2;
+xe0sfft = fftshift(xe0s);
 % semilogy(f, xe0sfft);
 
 %%
