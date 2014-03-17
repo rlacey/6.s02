@@ -91,7 +91,7 @@
 	\item[(a)]
 		Frequency spectrum of glucose and ECG signals.
 	
-	\includegraphics[width=\linewidth/2]{../images/GlucoseFFT} \includegraphics[width=\linewidth/2]{../images/ECGFFT}\\
+	\includegraphics[width=\linewidth/2]{../images/P1_GlucoseFFT} \includegraphics[width=\linewidth/2]{../images/P1_ECGFFT}\\
  
  \bigskip
  
@@ -120,13 +120,95 @@ title('ECG FFT Frequency Response');
 \newpage
 
 	\item[(b)]
-		place
+	Energy spectral density of glucose and ECG signals.\\
+	
+	\includegraphics[width=\linewidth/2]{../images/P1_EDGlucose} \includegraphics[width=\linewidth/2]{../images/P1_EDECG}\\
+
+\bigskip
+
+\begin{lstlisting}
+% Using variables defined in (1a)
+xg0s = abs(xg0fftUnshifted).^2;
+xg0sfft = fftshift(xg0s);
+semilogy(f, xg0sfft);
+
+xe0s = abs(xe0fftUnshifted).^2;
+xe0sfft = fftshift(xe0s);
+semilogy(f, xe0sfft);
+\end{lstlisting}
+
+\bigskip
+
+	\item[(c)] $\:$ \\
+\begin{tabular}{l*{4}{c}r}
+Glucose        &   1    &   5      &  100     &  500       \\
+\hline
+$E_T$          & 0.0850   & 0.0850   &  0.0850  &  0.0850  \\
+$E(f_1,f_2)$   & 2.0e-04  & 8.1e-05  & 1.77e-05 & 1.0e-11  \\
+Ratio          & 0.0024   & 9.6e-04  & 2.09e-04 & 1.2e-10  \\
+\end{tabular}
+
+\bigskip
+
+\begin{tabular}{l*{4}{c}r}
+ECG            &   1    &   5      &  100     &  500       \\
+\hline
+$E_T$          & 21.622   & 21.622   &  21.622  &  21.622  \\
+$E(f_1,f_2)$   & 10.810   & 8.4107   & 1.7e-04  & 2.6e-09  \\
+Ratio          & 0.5000   & 0.3890   & 7.9e-06  & 1.2e-10  \\
+\end{tabular}
+
+\bigskip
+
+\begin{lstlisting}
+% Using variables defined in (1a) and (1b)
+f1 = 500;
+f2 = 500;
+
+k1 = N*f1 / 1000;
+k2 = N*f2 / 1000;
+
+EtG = N * sum(xg0s);
+EfG = N * sum(xg0sfft(floor(k1+(N-1)/2):floor(k2+(N-1)/2)));
+GlucoseRatio = EfG / EtG;
+
+EtE = N * sum(xe0s);
+EfE = N * sum(xe0sfft(floor(k1+(N-1)/2):floor(k2+(N-1)/2)));
+ECGRatio = EfE / EtE;
+\end{lstlisting}
+
+\bigskip
+
+	\item[(d)]
+	placeholder
 
 	\end{enumerate}
 
 \newpage
 
 \item[2.]
+	Fourier coefficients of notch filter\\
+	\includegraphics[scale=0.25]{../images/P2_FilteredFourierCoefficients} \\
+	
+	Filtered ECG signal\\
+	\includegraphics[scale=0.25]{../images/P2_FilteredECG} \\
+
+\begin{lstlisting}
+function H0 = notchFilter(N, lowFrequency, highFrequency)
+    middle = N/2;
+    lowK = 60 * lowFrequency;
+    highK = 60 * highFrequency;
+    H0 = ones(N,1);
+    H0(middle-highK:middle-lowK) = 0;
+    H0(middle+lowK:middle+highK) = 0;
+end
+
+N = length(xe0);
+xe0fftUnshifted = fft(xe0)/N;
+xe0fft = fftshift(xe0fftUnshifted);
+H0 = notchFilter(N, 50, 70);
+xe0Filtered = ifft(ifftshift(H0 .* xe0fft))*N;
+\end{lstlisting}
 
 \end{enumerate}
 
