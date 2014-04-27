@@ -11,14 +11,14 @@ end
 [I,C] = kmeans(V, 3);   
 representatives = zeros(1, 3);
 for i = 1:3
-    [ variance, L2 ] = cluster_variance(V(I==i,:), C(i,:));
-%     representatives(i) = L2;
+    variance = cluster_variance(V(I==i,:), C(i,:));
 end
 
-
+plot(1:size(C,2), C(1,:), 1:size(C,2), C(2,:),1:size(C,2), C(3,:))
+legend('Cluster 1', 'Cluster 2', 'Cluster 3');
 
 % Problem 2c
-% Ks = 3:3;
+% Ks = 1:20;
 % variances = zeros(1,length(Ks));
 % for k = min(Ks):max(Ks)
 %     [I,C] = kmeans(V, k);   

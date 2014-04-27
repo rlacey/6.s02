@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.9.23)  7 APR 2014 21:01
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.9.23)  27 APR 2014 18:41
 entering extended mode
-**PS6.tex
-(M:\School\6.02\PS6\Report\PS6.tex
+**PS9.tex
+(M:\School\6.02\PS9\Report\PS9.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -633,7 +633,7 @@ Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-(M:\School\6.02\PS6\Report\PS6.aux)
+(M:\School\6.02\PS9\Report\PS9.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
 LaTeX Font Info:    ... okay on input line 75.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
@@ -726,71 +726,134 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 84.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
+<../images/GrayscaleBrain.png, id=1, 1445.4pt x 755.82375pt>
+File: ../images/GrayscaleBrain.png Graphic file (type png)
+
+<use ../images/GrayscaleBrain.png>
+Package pdftex.def Info: ../images/GrayscaleBrain.png used on input line 91.
+(pdftex.def)             Requested size: 469.75502pt x 245.6398pt.
+
+Overfull \hbox (47.00003pt too wide) in paragraph at lines 91--92
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--125
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<../images/K3Clusters.png, id=10, 1445.4pt x 755.82375pt>
-File: ../images/K3Clusters.png Graphic file (type png)
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <M:/School/6.02/PS9/images
+/GrayscaleBrain.png (PNG copy)>]
+<../images/BrainResolutions.png, id=11, 1445.4pt x 755.82375pt>
+File: ../images/BrainResolutions.png Graphic file (type png)
 
-<use ../images/K3Clusters.png>
-Package pdftex.def Info: ../images/K3Clusters.png used on input line 152.
-(pdftex.def)             Requested size: 361.34912pt x 188.95547pt.
+<use ../images/BrainResolutions.png>
+Package pdftex.def Info: ../images/BrainResolutions.png used on input line 106.
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--153
+(pdftex.def)             Requested size: 469.75502pt x 245.6398pt.
+
+<../images/KSpaceResolutions.png, id=12, 1445.4pt x 755.82375pt>
+File: ../images/KSpaceResolutions.png Graphic file (type png)
+
+<use ../images/KSpaceResolutions.png>
+Package pdftex.def Info: ../images/KSpaceResolutions.png used on input line 107
+.
+(pdftex.def)             Requested size: 469.75502pt x 245.6398pt.
+
+Overfull \hbox (47.00003pt too wide) in paragraph at lines 106--108
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
-[2 <M:/School/6.02/PS6/images/K3Clusters.png (PNG copy)>]
-<../images/OptimizingK.png, id=14, 1445.4pt x 755.82375pt>
-File: ../images/OptimizingK.png Graphic file (type png)
 
-<use ../images/OptimizingK.png>
-Package pdftex.def Info: ../images/OptimizingK.png used on input line 167.
-(pdftex.def)             Requested size: 361.34912pt x 188.95547pt.
+Overfull \hbox (47.00003pt too wide) in paragraph at lines 106--108
+[] 
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--168
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
-[3 <M:/School/6.02/PS6/images/OptimizingK.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 197--199
+[2 <M:/School/6.02/PS9/images/BrainResolutions.png (PNG copy)> <M:/School/6.02/
+PS9/images/KSpaceResolutions.png (PNG copy)>] [3]
+<../images/BrainAliased.png, id=19, 1445.4pt x 755.82375pt>
+File: ../images/BrainAliased.png Graphic file (type png)
+
+<use ../images/BrainAliased.png>
+Package pdftex.def Info: ../images/BrainAliased.png used on input line 155.
+(pdftex.def)             Requested size: 469.75502pt x 245.6398pt.
+
+Overfull \hbox (47.00003pt too wide) in paragraph at lines 155--156
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-[4] (M:\School\6.02\PS6\Report\PS6.aux) ) 
+[4 <M:/School/6.02/PS9/images/BrainAliased.png (PNG copy)>]
+<../images/AlteredGradient.png, id=23, 710.655pt x 743.77875pt>
+File: ../images/AlteredGradient.png Graphic file (type png)
+
+<use ../images/AlteredGradient.png>
+Package pdftex.def Info: ../images/AlteredGradient.png used on input line 173.
+(pdftex.def)             Requested size: 469.75502pt x 491.66724pt.
+
+Overfull \hbox (47.00003pt too wide) in paragraph at lines 172--174
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
+
+ []
+
+[5 <M:/School/6.02/PS9/images/AlteredGradient.png (PNG copy)>]
+<../images/Negativegradient.png, id=27, 1445.4pt x 755.82375pt>
+File: ../images/Negativegradient.png Graphic file (type png)
+
+<use ../images/Negativegradient.png>
+Package pdftex.def Info: ../images/Negativegradient.png used on input line 179.
+
+(pdftex.def)             Requested size: 422.75499pt x 221.06314pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
+
+ []
+
+[6 <M:/School/6.02/PS9/images/Negativegradient.png (PNG copy)>]
+(M:\School\6.02\PS9\Report\PS9.aux) ) 
 Here is how much of TeX's memory you used:
- 14417 strings out of 493921
- 284435 string characters out of 3147267
- 336141 words of memory out of 3000000
- 17522 multiletter control sequences out of 15000+200000
- 17255 words of font info for 59 fonts, out of 3000000 for 9000
+ 14399 strings out of 493921
+ 284728 string characters out of 3147267
+ 328141 words of memory out of 3000000
+ 17499 multiletter control sequences out of 15000+200000
+ 17568 words of font info for 60 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 38i,7n,40p,475b,1647s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc
-/dvips/cm-super/cm-super-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm100
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1728.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt0800.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on PS6.pdf (4 pages, 163058 bytes).
+ 38i,7n,40p,299b,1613s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvi
+ps/cm-super/cm-super-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-
+super/sfrm1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfr
+m1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1728.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt0800.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt0900.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on PS9.pdf (6 pages, 528336 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 52 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

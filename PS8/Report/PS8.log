@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.9.23)  7 APR 2014 21:01
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.9.23)  23 APR 2014 00:38
 entering extended mode
-**PS6.tex
-(M:\School\6.02\PS6\Report\PS6.tex
+**PS8.tex
+(M:\School\6.02\PS8\Report\PS8.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -633,7 +633,7 @@ Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-(M:\School\6.02\PS6\Report\PS6.aux)
+(M:\School\6.02\PS8\Report\PS8.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
 LaTeX Font Info:    ... okay on input line 75.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
@@ -726,71 +726,125 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 84.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--125
+Underfull \hbox (badness 10000) in paragraph at lines 94--97
 
  []
 
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<../images/K3Clusters.png, id=10, 1445.4pt x 755.82375pt>
-File: ../images/K3Clusters.png Graphic file (type png)
+<../images/SignalX.png, id=19, 1445.4pt x 755.82375pt>
+File: ../images/SignalX.png Graphic file (type png)
 
-<use ../images/K3Clusters.png>
-Package pdftex.def Info: ../images/K3Clusters.png used on input line 152.
-(pdftex.def)             Requested size: 361.34912pt x 188.95547pt.
+<use ../images/SignalX.png>
+Package pdftex.def Info: ../images/SignalX.png used on input line 125.
+(pdftex.def)             Requested size: 469.75502pt x 245.6398pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--153
+Overfull \hbox (47.00003pt too wide) in paragraph at lines 124--126
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
 
  []
 
-[2 <M:/School/6.02/PS6/images/K3Clusters.png (PNG copy)>]
-<../images/OptimizingK.png, id=14, 1445.4pt x 755.82375pt>
-File: ../images/OptimizingK.png Graphic file (type png)
+<../images/SpaceX.png, id=20, 1445.4pt x 755.82375pt>
+File: ../images/SpaceX.png Graphic file (type png)
 
-<use ../images/OptimizingK.png>
-Package pdftex.def Info: ../images/OptimizingK.png used on input line 167.
-(pdftex.def)             Requested size: 361.34912pt x 188.95547pt.
+<use ../images/SpaceX.png>
+Package pdftex.def Info: ../images/SpaceX.png used on input line 127.
+(pdftex.def)             Requested size: 469.75502pt x 245.6398pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--168
+Overfull \hbox (47.00003pt too wide) in paragraph at lines 126--128
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
-[3 <M:/School/6.02/PS6/images/OptimizingK.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 197--199
+[2 <M:/School/6.02/PS8/images/SignalX.png (PNG copy)> <M:/School/6.02/PS8/image
+s/SpaceX.png (PNG copy)>]
+<../images/SignalY.png, id=24, 1445.4pt x 755.82375pt>
+File: ../images/SignalY.png Graphic file (type png)
+
+<use ../images/SignalY.png>
+Package pdftex.def Info: ../images/SignalY.png used on input line 132.
+(pdftex.def)             Requested size: 469.75502pt x 245.6398pt.
+
+<../images/SpaceY.png, id=25, 1445.4pt x 755.82375pt>
+File: ../images/SpaceY.png Graphic file (type png)
+
+<use ../images/SpaceY.png>
+Package pdftex.def Info: ../images/SpaceY.png used on input line 133.
+(pdftex.def)             Requested size: 469.75502pt x 245.6398pt.
+
+Overfull \hbox (47.00003pt too wide) in paragraph at lines 131--134
+[] 
+ []
+
+
+Overfull \hbox (47.00003pt too wide) in paragraph at lines 131--134
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--134
 
  []
 
-[4] (M:\School\6.02\PS6\Report\PS6.aux) ) 
+[3 <M:/School/6.02/PS8/images/SignalY.png (PNG copy)> <M:/School/6.02/PS8/image
+s/SpaceY.png (PNG copy)>]
+<../images/Problems2&3.pdf, id=29, 597.23125pt x 845.1575pt>
+File: ../images/Problems2&3.pdf Graphic file (type pdf)
+
+<use ../images/Problems2&3.pdf>
+Package pdftex.def Info: ../images/Problems2&3.pdf used on input line 164.
+(pdftex.def)             Requested size: 469.75502pt x 664.7655pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+[4]
+Overfull \vbox (14.3355pt too high) has occurred while \output is active []
+
+
+[5 <M:/School/6.02/PS8/images/Problems2&3.pdf>] [6]
+(M:\School\6.02\PS8\Report\PS8.aux) ) 
 Here is how much of TeX's memory you used:
- 14417 strings out of 493921
- 284435 string characters out of 3147267
- 336141 words of memory out of 3000000
- 17522 multiletter control sequences out of 15000+200000
- 17255 words of font info for 59 fonts, out of 3000000 for 9000
+ 14391 strings out of 493921
+ 284306 string characters out of 3147267
+ 321141 words of memory out of 3000000
+ 17491 multiletter control sequences out of 15000+200000
+ 18789 words of font info for 61 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 38i,7n,40p,475b,1647s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc
-/dvips/cm-super/cm-super-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm100
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1728.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt0800.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on PS6.pdf (4 pages, 163058 bytes).
+ 38i,10n,40p,299b,1651s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvi
+ps/cm-super/cm-super-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-supe
+r/sfrm1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm120
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1728.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt0800.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt0900.pfb>
+Output written on PS8.pdf (6 pages, 396326 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 90 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
